@@ -27,7 +27,7 @@ This project demonstrates how to implement a **Decision Tree Classifier from scr
 ****Author****
 ****Tashfeen Aziz****
 📧 tashfeen786@gmail.com
-💼 GitHub: @tashfeen786
+💼 GitHub: [@tashfeen786](https://github.com/tashfeen786)
 
 **** License****
 This project is open-source and free to use for learning purposes.
