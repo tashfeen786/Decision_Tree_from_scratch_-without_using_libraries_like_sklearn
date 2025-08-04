@@ -2,15 +2,6 @@
 
 This project demonstrates how to implement a **Decision Tree Classifier from scratch** using pure Python. It includes step-by-step logic for building a tree using the **ID3 algorithm** with **Entropy and Information Gain**, **prediction**, and **visualization** using Graphviz.
 
----
-
-##  Project Structure
-
-```bash
-├── Decision_Tree_from_scratch.ipynb  # Main implementation in Colab Notebook
-├── decision_tree.png                 # Auto-generated visualization of the decision tree
-├── README.md                         # You're here!
-
  ****Features****
 - Build a decision tree without using libraries like scikit-learn.
 - Use entropy and information gain to split the dataset.
@@ -40,3 +31,12 @@ This project demonstrates how to implement a **Decision Tree Classifier from scr
 
 **** License****
 This project is open-source and free to use for learning purposes.
+
+---
+##  Project Structure
+
+```bash
+├── Decision_Tree_from_scratch.ipynb  # Main implementation in Colab Notebook
+├── decision_tree.png                 # Auto-generated visualization of the decision tree
+├── README.md                         # You're here!
+##
