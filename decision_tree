@@ -1,0 +1,17 @@
+digraph {
+	"cdcc1417-5844-419a-aedd-aa543cca6113" [label=Outlook color=lightgreen shape=ellipse style=filled]
+	"6ee6cc3e-d9c4-44ae-ac58-f2057d03a708" [label=Humidity color=lightgreen shape=ellipse style=filled]
+	"cdcc1417-5844-419a-aedd-aa543cca6113" -> "6ee6cc3e-d9c4-44ae-ac58-f2057d03a708" [label=Sunny]
+	"5aba69f5-ef59-4d7e-87cf-a781e5762798" [label="Predict: Yes" color=lightblue shape=box style=filled]
+	"6ee6cc3e-d9c4-44ae-ac58-f2057d03a708" -> "5aba69f5-ef59-4d7e-87cf-a781e5762798" [label=Normal]
+	"a74437bf-a8cf-41a6-ae74-30252d17e8ba" [label="Predict: No" color=lightblue shape=box style=filled]
+	"6ee6cc3e-d9c4-44ae-ac58-f2057d03a708" -> "a74437bf-a8cf-41a6-ae74-30252d17e8ba" [label=High]
+	"9fb220e7-0b21-44b1-ae36-170150a6f68d" [label=Wind color=lightgreen shape=ellipse style=filled]
+	"cdcc1417-5844-419a-aedd-aa543cca6113" -> "9fb220e7-0b21-44b1-ae36-170150a6f68d" [label=Rain]
+	"a405c25c-fd13-4511-a477-b179f444bebe" [label="Predict: No" color=lightblue shape=box style=filled]
+	"9fb220e7-0b21-44b1-ae36-170150a6f68d" -> "a405c25c-fd13-4511-a477-b179f444bebe" [label=Strong]
+	"4e00d2b9-ff3f-41e4-a243-3aa6a3019110" [label="Predict: Yes" color=lightblue shape=box style=filled]
+	"9fb220e7-0b21-44b1-ae36-170150a6f68d" -> "4e00d2b9-ff3f-41e4-a243-3aa6a3019110" [label=Weak]
+	"62fbae2c-7fd6-4778-b14f-b1edbfe9142e" [label="Predict: Yes" color=lightblue shape=box style=filled]
+	"cdcc1417-5844-419a-aedd-aa543cca6113" -> "62fbae2c-7fd6-4778-b14f-b1edbfe9142e" [label=Overcast]
+}
